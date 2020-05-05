@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  12vh 88vh 50vh 50vh 12vh;
+}
+.item{
+    background-color: yellow;
+
+}
+.item:first-child{
+    grid-column-start: 1;
+    grid-column-end: 4;
+  background-color: pink;
+  align-items: center;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 5px #27272B;
+  color: black;
+
+}
+
+.item:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.item:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.item:nth-child(4){
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}.item:nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.logo{
+    width: 5%;
+    margin: .05% .5% 0% 0%;
+    float: left;
+    transition: .5s;
+    border: olive 2px solid;
+}
+.name{
+    font-family: 'Baumans', cursive;
+    font-size: 2.5vw;
+    border: olive 2px solid;
+}
+.name sub{
+    font-size: 1vw;
+}
+.inList{
+    display: none;
+}
+nav{
+    position:relative;
+    border: 2px solid black;
+    width: 50vw;
+}
+.List-item{
+    width: 8vw;
+    border: olive 2px solid;
+}

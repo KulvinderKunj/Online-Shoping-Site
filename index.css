@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    /* background:linear-gradient(to right,rgb(221, 221, 228),rgb(176, 182, 179)); */
+    background-color: transparent;
+    padding-top: 1%;
+    position: fixed;
+    z-index: 100000;
+}
+.logo{
+    width: 5%;
+    margin: .05% .5% 0% 0%;
+    float: left;
+    transition: .5s;
+   }
+.blockStyle{
+    display: grid;
+    padding-top: .5%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Baumans', cursive;
+    float: left;
+    text-shadow: 3px 3px 5px #27272B;
+    color: black;
+}
+.name:hover .logo{
+    transform: rotate(90deg);
+    transition: .5s;
+    }
+sub{
+    font-size:1vw;
+    text-shadow: none;
+}
+.inUp{
+    margin-left: 61%;
+    display: inline;
+
+    }
+.signIn,.signUp{
+
+    padding:.5% 1% .5% 1%; 
+    color: black;
+    display: inline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    border: none;
+    background-color: transparent;
+}
+#signUp.signUp{
+    background-color: rgba(173, 168, 168, 0.72);
+}
+nav{
+
+    padding: -1.5% 0% 0% 0%;
+    background-color: transparent;
+}
+.navlist{
+    /* margin-left: 10%; */
+    list-style-type: none;
+margin-left: 27%;
+}
+.navI{
+    float: left;
+    color: black; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    padding: 0.5% 2% 0% .96%;
+    text-decoration:none;
+    margin: 2px;
+    width: 10,5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul ul{
+    display: none;
+}
+nav ul #kid:hover >ul{
+    display: block;
+}
+nav ul #men:hover >ul{
+    display: block;
+}
+nav ul #women:hover >ul{
+    display: block;
+}
+
+nav ul li:hover{
+    color:white;
+    border-left:1px solid white;}
+.navI:hover i{
+    color: black ;
+    transform: rotate(360deg);
+    transition: 1s;
+} 
+#signUp.signUp:hover{
+    background-color: rgba(146, 146, 146, 0.72);
+}
+
+
+.signIn:hover, .signUp:hover{
+color:white;
+    } 
+.slider{
+ 
+width: 100%;
+box-sizing: border-box;
+background-image: url(women.jpg);
+height: 900px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+
+    }
+    .products{
+width: 100%;
+background-image: url(men.jpg);
+height: 900px;
+background-size: cover;
+background-repeat: no-repeat;
+box-sizing: border-box;
+background-position: center;
+position: relative;
+
+
+    }
+    .blogs{
+        width: 100%;
+        background-image: url(cloths.jpg);
+        height:900px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        background-position: center;
+        position: relative;
+    }
+    .footer{
+        height: 100px;
+        width: 100%;
+       background-color:rgba(128, 123, 123, 0.877);
+        box-sizing: border-box;
+        position: relative;
+      }
+     
+      .empty{
+        width: 1px;
+        height: -14.8vw;
+}
+      
+      .men{
+          list-style: none;
+          width: 100%;
+          background:linear-gradient(to bottom,rgba(126, 131, 129, 0) ,rgba(173, 168, 168, 0.72));
+          position: absolute;
+           padding-top: 2%;
+           margin-left: -0.79%;
+        border-left: 1px solid white;
+          
+      }
+      .hello{
+          color: black;
+          width: 78vw;
+          text-align: left;
+          font-size: 1.4vw;
+          padding:0% 0%.6% 1%;
+      }
+      .hello:hover{
+          border-left: solid 2px black;
+          background-color: rgba(170, 169, 169, 0.329);
+      }
+      #search{
+          float: right;
+          margin-right: 7%;
+          width: 0px;
+          height: 2vw;
+          border: transparent;
+          border-bottom: .2vw solid black ;
+          background-color: transparent;
+          transition: .5s;
+          margin-top: .65%;
+          font-size: 1vw;
+          text-align: left;
+          margin-right: 5%;
+          text-align: center;
+        }
+         
+      #icon{
+        font-size: 1.7vw;
+        position: absolute;
+        top: 63%;
+        right: 3%;
+        padding-left: 1%;
+      }
+      #search:hover{
+          width: 9%;
+          height: 2vw;
+          border-bottom: 0.2vw solid black;
+          transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+          transition:1s;
+         
+      }
+      .sell{
+        position: sticky;
+        color: rgb(221, 150, 19);
+        font-family: fantasy;
+        font-size: 4vw;
+        top: 80%;  
+        padding-bottom: 5%;
+    
+        }
+        .off{
+            position: sticky;
+            color: rgb(0, 111, 139);
+            font-family: fantasy;
+            font-size: 4vw;
+            top: 90%;  
+        
+      }
+      sub{
+          color: rgb(0, 0, 0);
+   font-size: 1.5vw;
+      }
+      .why{
+          font-size: 1vw;
+      }
+   nav > a:active{
+          color: white;
+      }
+      .font{
+        position: sticky;
+        color: darkred;
+        font-family: fantasy;
+        font-size: 4vw;
+        top: 90%;  
+    }
+    #box-2{
+      color:rgb(11, 100, 73) ;
+    }
+    #box-3{
+      color:rgb(112, 8, 112) ;
+    }
+    @media(max-width:901) and (min-width:450px){
+.men{
+  margin-left: -0.83%;
+}
+    }
+    @media(max-width:450px) and (min-width:100px){
+      .men{
+        margin-left: -1%;
+      }
+      .blockStyle{
+        margin-left: 35%;
+      }
+      .signIn{
+        position: absolute;
+    top: 12%;
+    right: 15%;
+    width: 10%;
+      }
+      .signUp{
+        position: absolute;
+        top: 12%;
+        right: 5%;
+        width: 10%;
+      }
+      #search{
+        top: 56%;
+        right: 0%;
+        position: absolute;
+      }
+      .logo{
+        margin-left: 2%;
+      }
+
+    #icon {
+        font-size: 1.7vw;
+        position: absolute;
+        top: 46%;
+        right: 6%;
+        padding-left: 1%;
+    }
+    #search {
+      top: 44%;
+      right: 3%;
+      position: absolute;
+  }
+    }
